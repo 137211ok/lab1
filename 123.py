@@ -12,7 +12,7 @@ while True:
         print('Вам попалась карта достоинством %d' %current)
         count += current
         if count > 21:
-            print('Извините, но вы проиграли')
+            print('Извините, но вы проиграли!')
             break
         elif count == 21:
             print('Поздравляю, вы набрали 21!')
